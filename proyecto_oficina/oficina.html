@@ -3,56 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <title>Inventario de Oficina</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Estilos personalizados -->
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Inventario de Equipos de Oficina</h1>
-  <p><b>Responsable:</b> Yurley Sanchez</p>
-  <p><i>Última actualización:</i> Julio 2025</p>
 
-  <h2>Tipos de equipos</h2>
-  <ul>
-    <li>Portátiles</li>
-    <li>Impresoras</li>
-    <li>Periféricos (mouse, teclado, cámaras)</li>
-  </ul>
-
-  <h3>Lista de Tareas</h3>
-  <ol>
-    <li>Actualizar stock</li>
-    <li>Verificar estado de equipos</li>
-    <li>Reportar daños</li>
-  </ol>
-
-  <div class="container mt-5">
-    <h1 class="text-primary">Inventario de Equipos de Oficina</h1>
-    <table class="table table-bordered table-striped mt-3">
-      <thead class="table-dark">
-        <tr>
-          <th>ID</th>
-          <th>Equipo</th>
-          <th>Marca</th>
-          <th>Estado</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>001</td>
-          <td>Portátil</td>
-          <td>HP</td>
-          <td class="text-success">Operativo</td>
-        </tr>
-        <tr>
-          <td>002</td>
-          <td>Impresora</td>
-          <td>Epson</td>
-          <td class="text-danger">En reparación</td>
-        </tr>
-      </tbody>
-    </table>
+  <!-- Jumbotron / Encabezado -->
+  <div class="bg-primary text-white p-5 text-center rounded-3">
+    <h1>Inventario de Equipos de Oficina</h1>
+    <p class="lead">Gestión de portátiles, impresoras y periféricos</p>
   </div>
 
+  <!-- Contenido principal -->
+  <div class="container mt-4">
+
+    <!-- Responsable -->
+    <p><strong>Responsable:</strong> <span class="primary">Yurley Sanchez</span></p>
+    <p><em class="secondary">Última actualización:</em> Julio 2025</p>
+
+    <!-- Cards con listas -->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card custom-card">
+          <div class="card-header bg-secondary text-white">Tipos de Equipos</div>
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="list-group-item">Portátiles</li>
+              <li class="list-group-item">Impresoras</li>
+              <li class="list-group-item">Periféricos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card custom-card">
+          <div class="card-header bg-secondary text-white">Lista de Tareas</div>
+          <div class="card-body">
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item">Actualizar stock</li>
+              <li class="list-group-item">Verificar estado de equipos</li>
+              <li class="list-group-item">Reportar daños</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabla de inventario -->
+    <h2 class="mt-5 primary">Inventario Actual</h2>
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered custom-table mt-3">
+        <thead class="table-dark">
+          <tr>
+            <th>ID</th>
+            <th>Equipo</th>
+            <th>Marca</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>Portátil</td>
+            <td>HP</td>
+            <td class="text-success">Operativo</td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>Impresora</td>
+            <td>Epson</td>
+            <td class="text-danger">En reparación</td>
+          </tr>
+          <tr>
+            <td>003</td>
+            <td>Mouse</td>
+            <td>Logitech</td>
+            <td class="text-warning">Requiere revisión</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Botón de ir arriba -->
+    <a href="#" class="btn btn-primary btn-scroll-top">↑ Ir arriba</a>
+
+  </div>
+
+  <!-- Bootstrap JS (opcional para interactividad) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
