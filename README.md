@@ -16,5 +16,4 @@ Este es un ejemplo para la clase de Django en la [Universidad de Comfenalco Sant
 - Mónica Arias [Mokina0715](https://github.com/Mokina0715)
 - Luis Carlos  Pabon Cadena [zicodelico](https://github.com/zicodelico)
 - Juan Manuel [JuanTomey](https://github.com/JuanTomey)
-
-
+- Gilmer Castellanos [gilmer88](https://github.com/gilmer88)
