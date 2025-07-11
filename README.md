@@ -18,3 +18,4 @@ Este es un ejemplo para la clase de Django en la [Universidad de Comfenalco Sant
 - Juan Manuel [JuanTomey](https://github.com/JuanTomey)
 - Gilmer Castellanos [gilmer88](https://github.com/gilmer88)
 - Jesús Sarmiento: [jesusmenor99](https://github.com/jesusmenor99)
+- Samuel Avila: [sammavila](https://github.com/sammavila)
